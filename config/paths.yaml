@@ -1,0 +1,19 @@
+project_root: /content/drive/MyDrive/geo_projects/llojeta-glacier-analysis/repo
+
+data:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  publish: data/publish
+
+outputs:
+  figures: outputs/figures
+  tables: outputs/tables
+  reports: outputs/reports
+  qa: outputs/qa
+
+web:
+  root: web
+  assets: web/assets
+  maps: web/maps
+  scenes: web/scenes
