@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data pesada
+data/raw/
+data/interim/
+data/processed/
+
+# Outputs temporales
+outputs/
+
+# Entornos
+.env
+.venv/
+env/
+venv/
+
+# GIS auxiliares
+*.aux.xml
+*.ovr
+*.tfw
+*.prj~
