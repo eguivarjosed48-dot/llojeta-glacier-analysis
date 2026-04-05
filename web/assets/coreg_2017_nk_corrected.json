@@ -1,0 +1,29 @@
+{
+  "map_name": "coreg_2017_nk_corrected",
+  "map_title": "2017 DSM corrected against 2025_B base",
+  "input_raster": "/content/drive/MyDrive/geo_projects/llojeta-glacier-analysis/repo/outputs/coregistration_nk/2017_DSM_nk_corrected.tif",
+  "base_epoch": "2025_B",
+  "target_epoch": "2017",
+  "factor_giro": -0.1,
+  "crs": "EPSG:32719",
+  "width": 8991,
+  "height": 8720,
+  "nodata": -9999.0,
+  "resolution": [
+    0.09999999999999999,
+    0.09999999999999999
+  ],
+  "bounds_native": {
+    "left": 574637.0,
+    "bottom": 8224576.0,
+    "right": 575536.1,
+    "top": 8225448.0
+  },
+  "bounds_wgs84": {
+    "left": -68.30224516752108,
+    "bottom": -16.057523151752374,
+    "right": -68.29381247333585,
+    "top": -16.049613008714015
+  },
+  "png_filename": "coreg_2017_nk_corrected.png"
+}

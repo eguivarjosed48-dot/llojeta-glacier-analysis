@@ -11,3 +11,6 @@ fiona
 folium
 plotly
 pyyaml
+xdem
+geoutils
+rasterio
