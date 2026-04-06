@@ -30,3 +30,21 @@ venv/
 *.ovr
 *.tfw
 *.prj~
+*.pyc
+# Large scientific outputs
+outputs/coregistration_nk/*.tif
+outputs/coregistration_sweep/
+outputs/coregistration_diagnostics/maps/
+outputs/coregistration_diagnostics/figures/
+# Optional bulky data layers
+data/publish/
+# Keep small reproducible outputs
+!outputs/coregistration_final/
+!outputs/coregistration_final/*.csv
+!outputs/coregistration_final/*.json
+!outputs/coregistration_diagnostics/*.csv
+!outputs/coregistration_diagnostics/*.json
+!outputs/qa/*.csv
+!outputs/qa/*.json
+!web/tables/
+!web/tables/*.html
