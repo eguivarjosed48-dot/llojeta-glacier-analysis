@@ -1,0 +1,72 @@
+<table border="1" class="dataframe coreg-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Epoch</th>
+      <th>Scenario</th>
+      <th>Mean after</th>
+      <th>Median after</th>
+      <th>STD after</th>
+      <th>NMAD after</th>
+      <th>Decision</th>
+      <th>Selected product</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2017</td>
+      <td>stable_raw_raw</td>
+      <td>3.371</td>
+      <td>1.130</td>
+      <td>5.271</td>
+      <td>3.681</td>
+      <td><span class="badge badge-green">Use corrected</span></td>
+      <td>corrected</td>
+      <td>La corrección mejora el ajuste central y la dispersión robusta sobre terreno estable.</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>stable_raw_raw</td>
+      <td>-2.108</td>
+      <td>-2.007</td>
+      <td>5.272</td>
+      <td>5.251</td>
+      <td><span class="badge badge-amber">Review</span></td>
+      <td>review</td>
+      <td>La corrección muestra señales mixtas y requiere revisión adicional.</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>stable_no_border_raw</td>
+      <td>-0.908</td>
+      <td>-0.717</td>
+      <td>5.859</td>
+      <td>6.162</td>
+      <td><span class="badge badge-green">Use corrected</span></td>
+      <td>corrected</td>
+      <td>La corrección mejora el ajuste central y la dispersión robusta sobre terreno estable.</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>stable_no_border_raw</td>
+      <td>1.288</td>
+      <td>0.092</td>
+      <td>2.310</td>
+      <td>0.324</td>
+      <td><span class="badge badge-blue">Use corrected (near neutral)</span></td>
+      <td>corrected</td>
+      <td>La corrección tiene efecto pequeño, pero no degrada de forma relevante el ajuste.</td>
+    </tr>
+    <tr>
+      <td>2025_A</td>
+      <td>stable_no_border_raw</td>
+      <td>0.116</td>
+      <td>0.037</td>
+      <td>0.444</td>
+      <td>0.097</td>
+      <td><span class="badge badge-red">Use original</span></td>
+      <td>original</td>
+      <td>La corrección empeora el ajuste central; conviene conservar el DEM original.</td>
+    </tr>
+  </tbody>
+</table>
